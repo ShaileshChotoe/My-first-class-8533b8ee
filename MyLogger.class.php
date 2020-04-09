@@ -1,7 +1,7 @@
 <?php
 
-class MyLogger 
-{
+class MyLogger{
+    
     function log($message) 
     {
         echo $message;
