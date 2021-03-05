@@ -1,7 +1,6 @@
 <?php
 
-class MyLogger{
-    
+class MyLogger {
     function log($message) 
     {
         echo $message;
@@ -10,5 +9,3 @@ class MyLogger{
 
 $logger = new MyLogger();
 $logger->log('Hello world!');
-
-?>
