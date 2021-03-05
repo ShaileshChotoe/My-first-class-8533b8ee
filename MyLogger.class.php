@@ -1,12 +1,10 @@
 <?php
-
 class MyLogger
 {
-    function log($messages)
+    public function log($logger) 
     {
-        echo $messages;
+        echo $logger;
     }
 }
-
 $logger = new MyLogger();
-$logger->log('Hello world!');
+$logger->log("Het werkt!");
