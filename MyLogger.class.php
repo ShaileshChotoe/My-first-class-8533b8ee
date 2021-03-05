@@ -1,9 +1,9 @@
 <?php
 class MyLogger
 {
-    public function log($logger)
+    public function log($loggers)
     {
-        echo $logger;
+        echo $loggers;
     }
 }
 $logger = new MyLogger();
