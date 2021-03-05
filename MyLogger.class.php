@@ -1,9 +1,10 @@
 <?php
 
-class MyLogger {
-    function log($message) 
+class MyLogger
+{
+    function log($messages)
     {
-        echo $message;
+        echo $messages;
     }
 }
 
